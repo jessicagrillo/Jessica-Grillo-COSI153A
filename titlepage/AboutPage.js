@@ -1,59 +1,79 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button, Image, TextInput } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, ScrollView, Button, Image, TextInput } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-const navigation = createNativeStackNavigator();
 
-const App = () => {
+import AdoptPage from './AdoptPage';  
+
+export default function AboutPage () {
   return (
+  <SafeAreaView style={styles.container}>
+   <ScrollView style={styles.scrollView}>
     <View style={styles.container}>
       <View style={{flex:2, alignItems:'center',backgroundColor:'#CC6666',}}>
           <Text style={styles.header}>
               All About Adopt-a-Doxie!
           </Text>
       </View>
+      <View style={{flex:2, alignItems:'center',backgroundColor:'#CC6666',}}>
+        <Image
+             style={{width:400, height: 400, resizeMode: 'contain'}}
+             source={{uri:'https://www.dachworld.com/wp-content/uploads/2021/07/Dachshund-Colors-and-Patterns.png'}}/>
+        </View>
       <View style={{flex:8}}>
         <View  style={styles.vertical}>
           <View style={styles.centered}>
-              <Text style={{fontSize: 38, fontFamily: 'verana', color: '#CC6666', alignItems: 'center'}}>
-                  We are a not-for-profit organization who dedicates our time finding displaced dachshunds a new, safe, loving home. We have a passion for helping not only dogs, but YOU! Adopting through Adopt-a-Doxie helps us help you grow your family.
+              <Text style={{fontSize: 19, fontFamily: 'verana', color: '#CC6666', alignItems: 'center'}}>
+                  We are a not-for-profit organization who
+              </Text>
+              <Text style={{fontSize: 19, fontFamily: 'verana', color: '#CC6666', alignItems: 'center'}}>
+                 dedicates our time finding displaced
+              </Text>
+              <Text style={{fontSize: 19, fontFamily: 'verana', color: '#CC6666', alignItems: 'center'}}>
+                 dachshunds a new, safe, loving home.
+              </Text>
+              <Text style={{fontSize: 19, fontFamily: 'verana', color: '#CC6666', alignItems: 'center'}}>
+                 We have a passion for helping not only
+              </Text>
+              <Text style={{fontSize: 19, fontFamily: 'verana', color: '#CC6666', alignItems: 'center'}}>
+                 dogs, but YOU! Adopting through
+              </Text>
+              <Text style={{fontSize: 19, fontFamily: 'verana', color: '#CC6666', alignItems: 'center'}}>
+                Adopt-a-Doxie helps us help you grow your
+              </Text>
+              <Text style={{fontSize: 19, fontFamily: 'verana', color: '#CC6666', alignItems: 'center'}}>
+                family.
               </Text>
           </View>
         </View>
         <View  style={styles.horizontal}>
           <View style={styles.upperLeft}>
-              <Text style={{fontSize: 38, fontFamily: 'verana', color: '#FFFFCC', backgroundColor: '#CC6666'}}>
+              <Text style={{fontSize: 15, fontFamily: 'verana', color: '#FFFFCC', backgroundColor: '#CC6666'}}>
                  This app is designed for you to view a dachshund who needs a home, read the dachshund's story, and name the dachshund (naming the dog will help you make a connection with it and see if the feeling you have tells you to adopt it!). If you want to keep searching for the perfect match, you can click the button to see the next doxie who needs a home.
               </Text>
- 
           </View>
         </View>
-        <View style={styles.horizontal}>
-          <Image
-             style={{width:"25%",resizeMode: 'contain'}}
-             source={{uri:'https://doggiedesigner.com/wp-content/uploads/2020/08/rsz_shutterstock_1458343562.jpg'}}/>            
-          <View style={styles.formBox}>
+      </View>
+         <View style={styles.formBox}>
             <Text style={{fontSize:32, fontFamily: 'verana'}}>Register Here! </Text>
             <TextInput style={styles.input} placeholder="Full Name"/>
             <TextInput style={styles.input} placeholder="Age"/>
             <TextInput style={styles.input} placeholder="Email"/>
             <Button title="Submit" color="darkblue"
-             onPress={() =>
-             navigation.navigate('AdoptPage', { name: 'AdoptPage' })
-             }
+         //    onPress={() =>
+         //    navigate('AdoptPage', { name: 'AdoptPage' })
+    
+           //  }
            />
           </View>
-          <Image
-             style={{width:"25%",resizeMode: 'contain'}}
-             source={{uri:'https://www.dachworld.com/wp-content/uploads/2021/07/Dachshund-Colors-and-Patterns.png'}}/>
-        </View>
-      </View>
        <View style={{flex:.5, backgroundColor:'white', alignItems: 'right'}}>
           <Text style={styles.footer}>
-              *You must be screened and have proper documentation submitted before your adoption request can be reviewed and approved*
+              *You must be screened and have proper documentation submitted before your adoption request can be reviewed*
           </Text>
       </View>
     </View>
+   </ScrollView>
+ </SafeAreaView>
   );
 }
 const styles = StyleSheet.create({
@@ -66,7 +86,7 @@ const styles = StyleSheet.create({
   header: {
     flex:1,
     alignItems:'center',
-    fontSize:64,
+    fontSize:30,
     fontFamily: 'comic sans ms',
     padding:25,
     color:"#FFFFCC",
@@ -126,4 +146,3 @@ const styles = StyleSheet.create({
     color: 'red'
   },
 });
-export default App();
