@@ -20,6 +20,8 @@ This app is designed for you to view a dachshund who needs a home, read the dach
 
 <img width="1343" alt="Screen Shot 2021-11-11 at 7 59 37 AM" src="https://user-images.githubusercontent.com/64444479/141354099-7fccc6e1-6448-4eb8-a3f9-3246d0ef6649.png">
 
+<img width="1208" alt="Screen Shot 2021-11-11 at 1 54 12 PM" src="https://user-images.githubusercontent.com/64444479/141354717-73116ede-ad58-472d-82b9-e55e5ff7381e.png">
+
 ### DEVELOPER NOTES:
 PACKAGES: React Navigation, React Native Web
 TECHNOLOGIES: snack.expo.dev, Atom, GitHub, Expo
