@@ -10,6 +10,10 @@ This app is designed for you to view a dachshund who needs a home, read the dach
 ### SCREENSHOTS:
 <img width="1400" alt="Screen Shot 2021-11-11 at 1 51 58 PM" src="https://user-images.githubusercontent.com/64444479/141353834-e6082b7d-b253-490f-b869-d62ca7bbae26.png">
 
+<img width="1382" alt="Screen Shot 2021-12-10 at 12 34 52 PM" src="https://user-images.githubusercontent.com/64444479/145617226-e1d8b8bd-bd19-4a18-92a3-a8a3a8ffad5e.png">
+
+<img width="1058" alt="Screen Shot 2021-12-10 at 12 34 40 PM" src="https://user-images.githubusercontent.com/64444479/145617259-afbaadbb-c2c7-4f7d-908d-3dabe7ae0b37.png">
+
 <img width="1440" alt="Screen Shot 2021-11-11 at 7 58 24 AM" src="https://user-images.githubusercontent.com/64444479/141353683-8b089a46-ddc0-4587-947a-391e0412ad28.png">
 
 <img width="1347" alt="Screen Shot 2021-11-11 at 7 58 50 AM" src="https://user-images.githubusercontent.com/64444479/141353744-dc871b64-3fe6-4cc4-8d9e-5156c9f93f22.png">
