@@ -31,4 +31,4 @@ PACKAGES: React Navigation, React Native Web
 TECHNOLOGIES: snack.expo.dev, Atom, GitHub, Expo
 
 ### LINK TO MOVIE:
-<insert link here>
+https://brandeis.zoom.us/rec/share/Xl35__jfZ9p21-IuDZ8vluMzLPyPs6hFM6RYhe4PwakEWkREequZtZt5jisMm_Zn.bERJnJJ9pzZnIX-x
