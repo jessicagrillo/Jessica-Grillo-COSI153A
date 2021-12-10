@@ -25,3 +25,6 @@ This app is designed for you to view a dachshund who needs a home, read the dach
 ### DEVELOPER NOTES:
 PACKAGES: React Navigation, React Native Web
 TECHNOLOGIES: snack.expo.dev, Atom, GitHub, Expo
+
+### LINK TO MOVIE:
+<insert link here>
